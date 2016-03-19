@@ -30,7 +30,9 @@ body{
 color:#fff; 
 text-decoration:none; /*去下划线*/
 } 
-h3 {color: #777;font-size: 1em;}
+h3 {
+	color: #777;font-size: 1em;
+	}
 h2{
 	font-size: 22px;
 }
