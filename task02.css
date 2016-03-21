@@ -119,8 +119,9 @@ tfoot{
 
 }
 .sider aside form p{
-
 text-align:center;
+margin:10px;
+
 }
 .sider aside form p textarea{
 	vertical-align: text-top;/*把元素的顶端与行中最高元素的顶端对齐*/
