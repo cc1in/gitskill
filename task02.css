@@ -1,34 +1,27 @@
 *{margin:0; padding:0;}
 
 body{
-	background-color:#d8d8d8;
+	background:#d8d8d8;
 	font-family:"Microsoft Yahei";
 }
-.header{
+.header,thead{
 	background:#333;
 }
-
-
-.header  img {
-	
+.header >img {
 	 margin: 5px 20px 3px 20px;
    }
 .header nav {
-  
-    margin: 20px ;
     float: right;
-    
-	
-}
-.header nav li {
+	margin:20px;
    
+}
+.header li {
     float: left;/*让列表横排*/
 	margin-left: 50px;
-    
 }
 .header a { 
-color:#fff; 
-text-decoration:none; /*去下划线*/
+	color:#fff; 
+	text-decoration:none; /*去下划线*/
 } 
 h3 {
 	color: #777;font-size: 1em;
@@ -36,23 +29,19 @@ h3 {
 h2{
 	font-size: 22px;
 }
-
-article{
-	background-color:#fff;
-	padding: 30px 20px;
+article,.sider,.picture{
+	background:#fff;
 	margin:20px;
 	border:2px solid #a1a1a1;
-    border-style: none ridge ridge none;/*ridge	定义 3D 垄状边框。其效果取决于 border-color 的值。*/
+	border-style:none ridge ridge none;/*ridge	定义 3D 垄状边框。其效果取决于 border-color 的值。*/
+	padding: 30px 20px;
+}
+article{
 	line-height:2em;
-	
 }
 
 article p{text-indent: 2em;}/*text-indent 属性规定文本块中首行文本的缩进。*/
-article p .author {
-	color: #999;
-	font-size: 0.8em;
-}
-article p time{
+.author,time{
 	color: #999;
 	font-size: 0.8em;
 }
@@ -63,16 +52,7 @@ article ul{
 article ol{
 	 margin:0 60px;
 }
-.picture{border:1px;
-		background-color:#fff;
-		padding:20px;
-		margin:20px;
-		border:2px solid #a1a1a1;
-		border-style: none ridge ridge none;
-    
-
-}
-.picture figure  figcaption{
+.picture figcaption{
 	margin: 0 0 10px 0;
 	text-align: center;
 }
@@ -85,50 +65,33 @@ article ol{
 .picture img{
 	width:100%;
 }	
-
-
 table{
 	width: 100%;
 	border:#ccc;
 	border-collapse: collapse;/*如果可能，边框会合并为一个单一的边框。会忽略 border-spacing 和 empty-cells 属性。*/
-	
 }
-thead{
-	background:#333;
+thead,footer{
 	color:#fff;
 }
 tfoot{
 	background:#ccc;
 	border:#ccc;
 }
-.sider{
-	background-color:#fff;
-	padding:20px;
-	margin:20px;
-	border:2px solid #a1a1a1;
-	border-style: none ridge ridge none;
-  
-}
-
 .sider h2 {
 	font-size: 1em;
 	padding: 10px;
 	border-left: 5px solid #ccc;
 }
-.sider aside form{
+.sider p{
+	text-align:center;
+	margin:10px;
 
 }
-.sider aside form p{
-
-text-align:center;
-}
-.sider aside form p textarea{
-	vertical-align: text-top;/*把元素的顶端与行中最高元素的顶端对齐*/
+.sider textarea{
+	vertical-align:"text-top";/*把元素的顶端与行中最高元素的顶端对齐*/
 	width: 60%;
 	height: 10em;
-	
 }
-
 .form-submit {
 	width: 100%;
 	padding: 10px;
@@ -136,13 +99,11 @@ text-align:center;
 	color: white;
 	font-weight: bold;
 	font-size: 1em;
-	background-color: #35d;
+	background: #35d;
 	border-radius: 10px;/*该属性允许您为元素添加圆角边框！*/
 }
-
 footer{
 	background:#000;
-	color:#fff;
 	text-align: center;
 	padding:20px;
 }
