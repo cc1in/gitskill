@@ -1,5 +1,4 @@
 *{margin:0; padding:0;}
-
 body{
 	background:#d8d8d8;
 	font-family:"Microsoft Yahei";
@@ -13,7 +12,6 @@ body{
 .header nav {
     float: right;
 	margin:20px;
-   
 }
 .header li {
     float: left;/*让列表横排*/
@@ -39,7 +37,6 @@ article,.sider,.picture{
 article{
 	line-height:2em;
 }
-
 article p{text-indent: 2em;}/*text-indent 属性规定文本块中首行文本的缩进。*/
 .author,time{
 	color: #999;
@@ -85,7 +82,6 @@ tfoot{
 .sider p{
 	text-align:center;
 	margin:10px;
-
 }
 .sider textarea{
 	vertical-align:"text-top";/*把元素的顶端与行中最高元素的顶端对齐*/
@@ -106,4 +102,5 @@ footer{
 	background:#000;
 	text-align: center;
 	padding:20px;
+	width:100%;
 }
